@@ -1,0 +1,19 @@
+.Calculator {
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 5px; 
+}
+
+.calculator-results {
+  height: 100px;
+}
